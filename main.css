@@ -1,82 +1,11 @@
 /*red E74C3C*/
 /*https://color.adobe.com/Flat-UI-color-theme-2469224/*/
 @media print{
-  *{
-    margin: 0;
-    padding: 0;
-     -webkit-print-color-adjust: exact;
-  }
-  .svg{
-    width:35px;
-    padding-right: 10px;
-  }
-  .title{
-    font-size: 36px;
-    color:#2C3E50;
-    -webkit-print-color-adjust: exact;
-  }
-  h1{
-    margin-left: 25px;
-    color: #3498DB;
-    -webkit-print-color-adjust: exact;
-  }
-  .info{
-    margin-left: 50px;
-    margin-bottom: 40px;
-  }
-  *{
-  font-family: 'Raleway', sans-serif;
-  }
-  ul{
-    list-style: none;
-  }
-  li{
-    padding: 5px;
-  }
-  .job{
-    margin-left: 50px;
-  }
-  div.job > h2{
-    color: #2980B9;
-    font-size: 22px;
-    -webkit-print-color-adjust: exact;
-
-  }
-  div.job > h3{
-    padding-top: 0px;
-    font-size: 18px;
-    margin-top: 3px;
-  }
-  div.job > p{
-    font-size: 15px;
-    padding-top: 0px;
-  }
-  .skill{
-    width: 40px;
-  }
-  .skills{
-    font-size: 18px;
-  }
-  .skillslist{
-    margin-left: 50px;
-  }
   .bio{
-    float: right;
-    width: 200px;
-    margin-right: 100px;
-    margin-bottom: 10px;
+    display: none;
   }
-  h1{
-    font-size: 28px;
-  }
-  h1:after {
-    content: '.';
-    display: block;
-    height: 1px;
-    width: 100%;
-    margin: 0px auto;
-    text-indent: -9999px;
-    border-top: 1px solid #E74C3C;
+  .infolist > li{
+    float: left;
   }
 }
 *{
@@ -113,6 +42,7 @@ ul{
 li{
   padding: 5px;
 }
+
 .job{
   margin-left: 50px;
   width: 70%;
@@ -154,8 +84,7 @@ h1:after {
   content: '.';
   display: block;
   height: 1px;
-  width: 75%;
-  /*margin: 0px auto;*/
+  width: 80%;
   text-indent: -9999px;
   border-top: 1px solid #E74C3C;
 }
